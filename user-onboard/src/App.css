@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+label {
+  display: block;
+  padding: 10px;
+}
+
+input {
+  margin-left: 20px;
+}
+
+form {
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+
+button {
+  background: skyblue;
+  color: black;
+  width: 130px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:disabled {
+ 
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.1);
+  cursor: not-allowed;
+}
+
+p {
+  color: red;
+}
